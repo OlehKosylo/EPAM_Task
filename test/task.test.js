@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 
 const findFirstMissingNaturalNumber = require('../src/task')
 
-describe('task', () => {
+describe('src/task.js', () => {
     describe('#findFirstMissingNaturalNumber()', () => {
         it('should return undefined when did not find natural number', () => {
             const number = findFirstMissingNaturalNumber([-2,-1,0,1])
