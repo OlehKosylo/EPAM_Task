@@ -4,11 +4,14 @@
   "description": "",
   "main": "src/task.js",
   "dependencies": {
-    "chai": "^4.3.0"
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc --reporter=html --reporter=text npm test"
   },
   "author": "",
   "license": "ISC"
